@@ -46,3 +46,4 @@ If you’re running the Expo app on a phone (or Android emulator), don’t use `
 ## Business rule (earnings)
 
 - `1000` video views = `100` Birr
+# alx-connect
