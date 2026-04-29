@@ -1,0 +1,20 @@
+@import 'tailwindcss';
+@config '../tailwind.config.js';
+
+@layer base {
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    @apply bg-slate-50 text-slate-900 antialiased;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl2 border border-slate-200 bg-white shadow-softSm;
+  }
+}
